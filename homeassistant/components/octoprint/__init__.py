@@ -62,6 +62,8 @@ SENSOR_TYPES = {
     # API Endpoint, Group, Key, unit, icon
     'Temperatures': ['printer', 'temperature', '*', TEMP_CELSIUS],
     "Current State": ['printer', 'state', 'text', None, 'mdi:printer-3d'],
+    "Current Job": ['job', 'file', 'name', 'text',
+                     'mdi:file'],
     "Job Percentage": ['job', 'progress', 'completion', '%',
                        'mdi:file-percent'],
     "Time Remaining": ['job', 'progress', 'printTimeLeft', 'seconds',
